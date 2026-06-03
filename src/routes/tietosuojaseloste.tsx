@@ -31,6 +31,7 @@ const sections = [
     content: (
       <>
         <p>Lynevo Solutions</p>
+        <p>Y-tunnus: 3629364-2</p>
         <p>Helsinki, Suomi</p>
         <p>
           Sähköposti:{" "}

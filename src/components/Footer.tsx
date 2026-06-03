@@ -68,7 +68,7 @@ export function Footer() {
           borderTop: "1px solid rgba(184,149,106,0.10)",
         }}
       >
-        © 2026 Lynevo Solutions. Rakennettu suomalaisille yrityksille.
+        © 2026 Lynevo Solutions · Y-tunnus 3629364-2 · Rakennettu suomalaisille yrityksille.
       </div>
     </footer>
   );
