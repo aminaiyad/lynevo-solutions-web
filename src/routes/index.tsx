@@ -147,7 +147,6 @@ function HeroOrbs() {
 // ── Trust marquee ────────────────────────────────────────────
 const TRUST = [
   "Strukturoitu AI-kartoitus",
-  "1 990 € kiinteä hinta",
   "Toimitetaan 10 arkipäivässä",
   "Ei sitoutumisvelvoitetta",
   "Suomalaisille tilitoimistoille",
@@ -292,14 +291,14 @@ function Home() {
                   e.currentTarget.style.color = "rgba(255,255,255,0.85)";
                 }}
               >
-                Varaa AI-mahdollisuuskartoitus — 1 990 €
+                Varaa maksuton tutustumispuhelu
                 <span className="transition-transform group-hover:translate-x-1">→</span>
               </a>
               <p
                 className="mt-5 text-xs tracking-wider"
                 style={{ color: "rgba(255,255,255,0.3)" }}
               >
-                Toimitetaan 10 arkipäivässä. Kiinteä hinta. Ei sitoutumisvelvoitetta.
+                30 minuuttia. Maksuton. Kerromme rehellisesti, sopiiko kartoitus Teille.
               </p>
             </ClipReveal>
           </div>
@@ -376,7 +375,7 @@ function Home() {
               {
                 step: "Vaihe 1",
                 title: "Kartoitus",
-                body: "Käymme läpi toimistonne toiminnot, työnkulut ja kipupisteet strukturoidussa 90 minuutin tapaamisessa.",
+                body: "Haastattelemme sekä johdon että operatiivisen tiimin erikseen — jotta näemme sekä strategiset tavoitteet että arjen todellisuuden.",
               },
               {
                 step: "Vaihe 2",
@@ -402,12 +401,6 @@ function Home() {
               </FadeUp>
             ))}
           </div>
-
-          <FadeUp delay={0.3}>
-            <p className="eyebrow mt-16 text-center">
-              Kiinteä hinta · 1 990 € · Ei piilokustannuksia
-            </p>
-          </FadeUp>
         </div>
       </section>
 

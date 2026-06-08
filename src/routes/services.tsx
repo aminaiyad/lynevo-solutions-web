@@ -20,12 +20,12 @@ const E = [0.16, 1, 0.3, 1] as const;
 
 function ServicesPage() {
   const included = [
-    "90 minuutin strukturoitu kartoitussessio johtoryhmänne kanssa",
+    "Strukturoidut haastattelut johdolle ja operatiiviselle tiimille erikseen (2 × 45 min)",
     "Kattava toimintaprosessien kartoitus ydinpalveluidenne osalta",
     "AI-mahdollisuusanalyysi priorisoituna ROI:n, toteutettavuuden ja käyttöönottokustannusten mukaan",
     "Työkalukohtaiset suositukset toimittajavertailuineen",
     "Ammattimainen kirjallinen raportti (15–25 sivua), toimitetaan 10 arkipäivässä",
-    "60 minuutin purku-sessio, jossa käymme läpi löydökset ja vastaamme kysymyksiin",
+    "45 minuutin raportin purkusessio — käymme läpi löydökset ja sovitaan jatkotoimenpiteistä",
   ];
 
   const ladder = [
@@ -108,7 +108,7 @@ function ServicesPage() {
               style={{ color: "rgba(255,255,255,0.50)" }}
             >
               Jokainen toimeksianto alkaa selkeästä lopputuloksesta. Emme tee
-              epämääräistä. Emme tee retainereitä, joita ette voi perustella.
+              epämääräistä.
             </p>
           </FadeUp>
         </div>
@@ -202,7 +202,7 @@ function ServicesPage() {
                       e.currentTarget.style.borderColor = "var(--ink)";
                     }}
                   >
-                    Varaa AI-mahdollisuuskartoitus — 1 990 € <span>→</span>
+                    Varaa maksuton tutustumispuhelu <span>→</span>
                   </a>
                 </div>
               </FadeUp>
