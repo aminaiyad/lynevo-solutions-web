@@ -24,7 +24,7 @@ function ServicesPage() {
     "Kattava toimintaprosessien kartoitus ydinpalveluidenne osalta",
     "AI-mahdollisuusanalyysi priorisoituna ROI:n, toteutettavuuden ja käyttöönottokustannusten mukaan",
     "Työkalukohtaiset suositukset toimittajavertailuineen",
-    "Ammattimainen kirjallinen raportti (15–25 sivua), toimitetaan 10 arkipäivässä",
+    "Ammattimainen kirjallinen raportti, toimitetaan 10 arkipäivässä",
     "45 minuutin raportin purkusessio — käymme läpi löydökset ja sovitaan jatkotoimenpiteistä",
   ];
 
