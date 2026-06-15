@@ -427,12 +427,6 @@ function Home() {
                 price: "Tarjouksen mukaan",
                 featured: false,
               },
-              {
-                title: "Koulutus ja työpajat",
-                body: "Strukturoidut ohjelmat, joissa tiimienne ymmärrys AI-työkaluista syvenee aidosti. Räätälöity toimistonne työnkulkuihin.",
-                price: "Tarjouksen mukaan",
-                featured: false,
-              },
             ].map((s, i) => (
               <FadeUp key={s.title} delay={i * 0.08}>
                 <motion.div

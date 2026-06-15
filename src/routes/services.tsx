@@ -131,12 +131,6 @@ function ServicesPage() {
                   <span className="text-5xl md:text-6xl font-serif text-[color:var(--ink)]">
                     Ilmainen setup
                   </span>
-                  <span
-                    className="text-sm tracking-wide"
-                    style={{ color: "var(--warm)" }}
-                  >
-                    kuukausisopimus käynnistyy päivänä 31
-                  </span>
                 </div>
               </FadeUp>
               <FadeUp delay={0.2}>
