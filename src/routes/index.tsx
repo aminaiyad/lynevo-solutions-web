@@ -314,15 +314,15 @@ function Home() {
           </FadeUp>
           <FadeUp delay={0.12}>
             <h2 className="text-[28px] md:text-[44px] leading-tight max-w-4xl">
-              Tilitoimistoilla on yksi ongelma automaatiossa.
+              Suurin osa toimiston ajasta menee ylläpitoon. Ei kasvuun.
             </h2>
           </FadeUp>
 
           <div className="mt-24 grid gap-0 md:grid-cols-3 border-t border-[color:var(--divider)]">
             {[
-              ["01", "Laskujen syöttö, palkanlaskenta, ALV-ilmoitukset, asiakkaiden dokumenttien metsästys. Tiimiltänne menee joka viikko tunteja tehtäviin, jotka voidaan automatisoida."],
+              ["01", "Laskut, palkanlaskenta, ALV, asiakasviestintä, dokumenttien metsästys, raporttien kirjoittaminen. Toistuva ylläpitotyö syö sen ajan, joka kuuluisi asiakkaille ja kasvulle."],
               ["02", "Procountorissa, Netvisorissa ja Fennoassa on jo automaatio-ominaisuuksia. Useimmat tilitoimistot eivät tiedä mitä niissä on tai miten niistä saa mitään irti. Ohjelmistot kehittyvät. Käyttö ei."],
-              ["03", "Joka kuukausi ilman automaatiota on kuukausi, jonka tiimiltänne menee väärään paikkaan. Kilpailijat eivät odota."],
+              ["03", "Toimiston omistaja, joka vapautuu ylläpitotyöstä, pelaa eri peliä. Enemmän aikaa asiakkaille, kasvulle ja sille mikä oikeasti merkitsee."],
             ].map(([n, t], i) => (
               <FadeUp key={n} delay={i * 0.1}>
                 <div
@@ -372,7 +372,7 @@ function Home() {
               {
                 step: "Vaihe 1",
                 title: "Selvitetään yhdessä",
-                body: "Käymme läpi, mitkä prosessit toimistossanne vievät eniten aikaa. Procountor, Netvisor, Fennoa vai jokin muu — tunnistamme mihin rakennetaan. Puoli tuntia. Ei sitoumuksia.",
+                body: "Käymme läpi kaiken toistuvan työn toimistossanne — kirjanpidosta asiakasviestintään, raporteista hallintoon. Tunnistamme mihin rakennetaan ensin. Puoli tuntia. Ei sitoumuksia.",
               },
               {
                 step: "Vaihe 2",
