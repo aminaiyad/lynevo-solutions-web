@@ -8,7 +8,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Tekoälyjärjestelmä suomalaisille tilitoimistoille. Ilmainen setup, tuloksiin sidottu kuukausisopimus. 30 tuntia säästöä tai ette maksa mitään.",
+          "Tekoälyjärjestelmä suomalaisille tilitoimistoille. Ilmainen käyttöönotto, tuloksiin sidottu kuukausisopimus. 30 tuntia säästöä tai ette maksa mitään.",
       },
     ],
   }),
@@ -129,7 +129,7 @@ function ServicesPage() {
               <FadeUp delay={0.15}>
                 <div className="mt-8 flex items-baseline gap-4">
                   <span className="text-5xl md:text-6xl font-serif text-[color:var(--ink)]">
-                    Ilmainen setup
+                    Ilmainen käyttöönotto
                   </span>
                 </div>
               </FadeUp>

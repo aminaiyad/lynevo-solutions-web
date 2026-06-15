@@ -152,16 +152,16 @@ function AboutPage() {
           >
             {[
               [
-                "Suoruus ennen diplomatiaa",
-                "Kerromme Teille, mitä oikeasti ajattelemme.",
+                "Rehellisyys ennen varmuutta",
+                "Saatte rehellisen näkemyksen ilman turhaa kiertelyä.",
               ],
               [
-                "Tulos ensin, lasku sitten",
-                "Ette maksa ennen kuin 30 tuntia säästyy. Takuu kirjataan sopimukseen, ei lupauksena vaan ehtona.",
+                "Tulokset ennen veloitusta",
+                "Selkeät havainnot ennen laskutusta.",
               ],
               [
-                "Suomi ensin",
-                "Ymmärrämme markkinan, kielen ja kulttuurin.",
+                "Paikallinen ymmärrys",
+                "Tunnemme suomalaiset tilitoimistot, niiden arjen ja markkinan.",
               ],
             ].map(([t, b], i) => (
               <FadeUp key={t} delay={i * 0.1}>

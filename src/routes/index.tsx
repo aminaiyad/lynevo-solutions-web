@@ -418,7 +418,7 @@ function Home() {
               {
                 title: "Tekoälyjärjestelmä ilmaiseksi",
                 body: "Rakennamme, käyttöönotamme ja ylläpidämme järjestelmän teidän tilitoimistossanne. Kuukausisopimus käynnistyy vasta kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
-                price: "Ilmainen setup · Tuloksiin sidottu",
+                price: "Ilmainen käyttöönotto · Tuloksiin sidottu",
                 featured: true,
               },
               {
