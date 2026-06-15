@@ -33,7 +33,7 @@ function ServicesPage() {
     {
       step: "01",
       title: "Setup",
-      body: "Rakennamme tekoälyjärjestelmän ja otamme ensimmäiset automaatiot käyttöön. Ei aloitusmaksua, ei sitoumuksia.",
+      body: "Rakennamme järjestelmän ja otamme ensimmäiset automaatiot käyttöön. Ei aloitusmaksua, ei sitoumuksia.",
     },
     {
       step: "02",
@@ -123,7 +123,7 @@ function ServicesPage() {
               </FadeUp>
               <FadeUp delay={0.1}>
                 <h2 className="text-[30px] md:text-[48px] leading-tight">
-                  Tekoälyjärjestelmä ilmaiseksi. Kuukausisopimus vasta kun tulokset on todistettu.
+                  Järjestelmä ilmaiseksi. Kuukausisopimus vasta kun tulokset on todistettu.
                 </h2>
               </FadeUp>
               <FadeUp delay={0.15}>
@@ -138,7 +138,7 @@ function ServicesPage() {
                   className="mt-8 text-lg leading-relaxed max-w-xl"
                   style={{ color: "var(--warm)" }}
                 >
-                  Rakennamme ja ylläpidämme tekoälyjärjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ette maksa senttiäkään ennen kuin 30 tunnin kuukausisäästö on objektiivisesti vahvistettu. Jos emme saavuta tavoitetta, ette maksa mitään.
+                  Rakennamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ette maksa senttiäkään ennen kuin 30 tunnin kuukausisäästö on objektiivisesti vahvistettu. Jos emme saavuta tavoitetta, ette maksa mitään.
                 </p>
               </FadeUp>
 

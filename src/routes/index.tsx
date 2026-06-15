@@ -377,7 +377,7 @@ function Home() {
               {
                 step: "Vaihe 2",
                 title: "Rakennamme järjestelmän",
-                body: "Rakennamme tekoälyjärjestelmän ja yhdistämme sen ohjelmistoihinne. Kaikki testattu ennen kuin tiimistänne kukaan näkee sen. Valmis viidessä arkipäivässä.",
+                body: "Rakennamme järjestelmän ja yhdistämme sen ohjelmistoihinne. Kaikki testattu ennen kuin tiimistänne kukaan näkee sen. Valmis viidessä arkipäivässä.",
               },
               {
                 step: "Vaihe 3",
@@ -417,7 +417,7 @@ function Home() {
             {[
               {
                 title: "Tekoälyjärjestelmä ilmaiseksi",
-                body: "Rakennamme, käyttöönotamme ja ylläpidämme tekoälyjärjestelmän teidän tilitoimistossanne. Kuukausisopimus käynnistyy vasta kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
+                body: "Rakennamme, käyttöönotamme ja ylläpidämme järjestelmän teidän tilitoimistossanne. Kuukausisopimus käynnistyy vasta kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
                 price: "Ilmainen setup · Tuloksiin sidottu",
                 featured: true,
               },
