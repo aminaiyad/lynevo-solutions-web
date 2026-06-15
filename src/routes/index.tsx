@@ -417,15 +417,15 @@ function Home() {
             {[
               {
                 title: "Järjestelmä ilmaiseksi",
-                body: "Rakennamme, käyttöönotamme ja ylläpidämme järjestelmän teidän tilitoimistossanne. Kuukausisopimus käynnistyy vasta kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
+                body: "Rakennamme järjestelmän ja kehitämme sitä joka kuukausi uusilla automaatioilla. Kuukausisopimus käynnistyy vain kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
                 price: "Ilmainen käyttöönotto · Tuloksiin sidottu",
                 featured: true,
               },
               {
-                title: "Käyttöönotto",
-                body: "Otamme käyttöön suositellut työkalut ja koulutamme tiimienne käyttämään niitä itsenäisesti.",
-                price: "Tarjouksen mukaan",
-                featured: false,
+                title: "Kuukausisopimus",
+                body: "Uusia automaatioita kuukausittain. Kaikki ylläpidetään ja kehitetään. Strategiapuhelu ja ROI-raportti kuukausittain.",
+                price: "",
+                featured: true,
               },
             ].map((s, i) => (
               <FadeUp key={s.title} delay={i * 0.08}>
