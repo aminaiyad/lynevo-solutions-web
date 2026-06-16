@@ -8,7 +8,7 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Tekoälyjärjestelmä suomalaisille tilitoimistoille. Ilmainen käyttöönotto, tuloksiin sidottu kuukausisopimus. 30 tuntia säästöä tai ette maksa mitään.",
+          "Järjestelmä suomalaisille tilitoimistoille. Veloitukseton käyttöönotto, tuloksiin sidottu kuukausisopimus. Takaamme 30 tunnin kuukausisäästön ensimmäisellä kuukaudella.",
       },
     ],
   }),
@@ -32,7 +32,7 @@ function ServicesPage() {
   const ladder = [
     {
       step: "01",
-      title: "Setup",
+      title: "Käyttöönotto",
       body: "Rakennamme järjestelmän ja otamme ensimmäiset automaatiot käyttöön. Ei aloitusmaksua, ei sitoumuksia.",
     },
     {
@@ -43,7 +43,7 @@ function ServicesPage() {
     {
       step: "03",
       title: "Kuukausisopimus",
-      body: "Alkaa kun ROI-raportti vahvistaa 30 tunnin säästön. Jos tavoite ei toteudu — ette maksa mitään.",
+      body: "Alkaa jakson jälkeen, kun asiakas on todennut 30 tunnin kuukausisäästön ROI-raportista ja päättää jatkosta.",
     },
   ];
 
@@ -107,7 +107,7 @@ function ServicesPage() {
               className="mt-10 text-lg max-w-2xl leading-relaxed"
               style={{ color: "rgba(255,255,255,0.50)" }}
             >
-              Rakennamme, käyttöönotamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ette maksa senttiäkään ennen kuin tulokset on todistettu.
+              Rakennamme, käyttöönotamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ensimmäinen kuukausi veloituksetta. Jakson jälkeen asiakas päättää jatkosta.
             </p>
           </FadeUp>
         </div>
@@ -123,7 +123,7 @@ function ServicesPage() {
               </FadeUp>
               <FadeUp delay={0.1}>
                 <h2 className="text-[30px] md:text-[48px] leading-tight">
-                  Järjestelmä ilmaiseksi. Kuukausisopimus vasta kun tulokset on todistettu.
+                  Järjestelmä veloituksetta. Ensimmäinen kuukausi ilman sitoumuksia.
                 </h2>
               </FadeUp>
               <FadeUp delay={0.15}>
@@ -138,7 +138,7 @@ function ServicesPage() {
                   className="mt-8 text-lg leading-relaxed max-w-xl"
                   style={{ color: "var(--warm)" }}
                 >
-                  Rakennamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ette maksa senttiäkään ennen kuin 30 tunnin kuukausisäästö on objektiivisesti vahvistettu. Jos emme saavuta tavoitetta, ette maksa mitään.
+                  Rakennamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön, jonka todennamme ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.
                 </p>
               </FadeUp>
 
@@ -253,7 +253,7 @@ function ServicesPage() {
               className="mt-6 text-sm tracking-wider"
               style={{ color: "rgba(255,255,255,0.40)" }}
             >
-              Rakennamme ilmaiseksi. Kuukausisopimus alkaa vasta kun 30 tunnin säästö on todistettu. Kirjataan sopimukseen ennen aloittamista.
+              Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön, todennettu ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.
             </p>
           </FadeUp>
 

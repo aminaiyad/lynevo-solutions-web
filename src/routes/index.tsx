@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Rakennamme suomalaisille tilitoimistoille tekoälyjärjestelmän ilmaiseksi. 30 tuntia säästöä ensimmäisessä kuukaudessa tai ette maksa mitään.",
+          "Rakennamme suomalaisille tilitoimistoille järjestelmän veloituksetta ensimmäiseksi kuukaudeksi. Takaamme 30 tunnin kuukausisäästön — todennetaan ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.",
       },
     ],
   }),
@@ -146,11 +146,11 @@ function HeroOrbs() {
 
 // ── Trust marquee ────────────────────────────────────────────
 const TRUST = [
-  "Järjestelmä ilmaiseksi",
-  "30 tuntia säästöä tai ette maksa mitään",
+  "Järjestelmä veloituksetta",
+  "30 tunnin kuukausisäästö taataan",
   "Ei sitoumuksia",
   "Suomalaisille tilitoimistoille",
-  "Kuukausisopimus käynnistyy vasta kun tulokset on todistettu",
+  "Jakson jälkeen asiakas päättää jatkosta",
 ];
 
 function TrustMarquee() {
@@ -358,7 +358,7 @@ function Home() {
           </FadeUp>
           <FadeUp delay={0.12}>
             <h2 className="text-[28px] md:text-[44px] leading-tight max-w-4xl">
-              Kolme vaihetta. Ensimmäinen kuukausi ilmaiseksi.
+              Kolme vaihetta. Ensimmäinen kuukausi veloituksetta.
             </h2>
           </FadeUp>
 
@@ -411,8 +411,8 @@ function Home() {
           <div className="mt-24 grid gap-4 md:grid-cols-2">
             {[
               {
-                title: "Järjestelmä ilmaiseksi",
-                body: "Rakennamme järjestelmän ja kehitämme sitä joka kuukausi uusilla automaatioilla. Kuukausisopimus käynnistyy vain kun 30 tuntia säästyy. Jos ei säästy, ette maksa mitään.",
+                title: "Järjestelmä veloituksetta",
+                body: "Rakennamme järjestelmän ja kehitämme sitä joka kuukausi uusilla automaatioilla. Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön — jakson jälkeen asiakas päättää jatkosta.",
                 price: "Ilmainen käyttöönotto · Tuloksiin sidottu",
                 featured: true,
               },
@@ -511,7 +511,7 @@ function Home() {
               ],
               [
                 "Nolla riskiä",
-                "30 tuntia ensimmäisessä kuukaudessa tai ette maksa mitään. Mittausmenetelmä kirjataan sopimukseen ennen aloittamista.",
+                "Takaamme 30 tunnin kuukausisäästön ensimmäisessä kuukaudessa, todennettu ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.",
               ],
             ].map(([t, b], i) => (
               <FadeUp key={t} delay={i * 0.1}>
