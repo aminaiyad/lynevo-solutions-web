@@ -158,16 +158,16 @@ function AboutPage() {
           >
             {[
               [
-                "Rehellisyys ennen varmuutta",
-                "Saatte rehellisen näkemyksen ilman turhaa kiertelyä.",
+                "Selkeys ennen oletuksia",
+                "Saatte meiltä suoran näkemyksen ilman teknistä jargonia tai tyhjiä lupauksia. Kerromme selkeästi, mitkä rutiinit on mahdollista automatisoida ja mihin järjestelmää ei kannata käyttää.",
               ],
               [
-                "Tulokset ennen veloitusta",
-                "Selkeät havainnot ennen laskutusta.",
+                "Tulokset ennen päätöstä",
+                "Luvut ratkaisevat. Näette säästetyt tunnit ja eurot konkreettisesti ennen kuin päätätte jatkosta. Ensimmäinen kuukausi on aina veloituksetta, ja yhteinen ROI-raportti todentaa järjestelmän tuottaman arvon.",
               ],
               [
-                "Paikallinen ymmärrys",
-                "Tunnemme suomalaiset tilitoimistot, niiden arjen ja markkinan.",
+                "Paikallinen asiantuntijuus",
+                "Tunnemme suomalaisten tilitoimistojen arjen, tiukan kuukausisyklin ja käytetyt ohjelmistot. Emme ole kasvoton teknologiayritys, vaan kumppani, joka ymmärtää liiketoimintanne realiteetit.",
               ],
             ].map(([t, b], i) => (
               <FadeUp key={t} delay={i * 0.1}>
