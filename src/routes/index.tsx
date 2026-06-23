@@ -367,16 +367,16 @@ function Home() {
               {
                 step: "Vaihe 1",
                 title: "Selvitetään yhdessä",
-                body: "Käymme läpi kaiken toistuvan työn toimistossanne — kirjanpidosta asiakasviestintään, raporteista hallintoon. Tunnistamme mihin rakennetaan ensin. Puoli tuntia. Ei sitoumuksia.",
+                body: "Käymme läpi teidän tilitoimiston toistuvan työn kirjanpidosta asiakasviestintään ja raporteista hallintoon. Tunnistamme, mihin rakennetaan ensin. 30 minuutin keskustelu. Veloituksetta. Ei sitoumuksia.",
               },
               {
                 step: "Vaihe 2",
-                title: "Rakennamme järjestelmän",
-                body: "Rakennamme järjestelmän ja yhdistämme sen ohjelmistoihinne. Kaikki testattu ennen kuin tiimistänne kukaan näkee sen. Valmis viidessä arkipäivässä.",
+                title: "Rakennamme tekoälyjärjestelmän",
+                body: "Rakennamme teidän tilitoimistolle oman tekoälyjärjestelmän ja yhdistämme sen teidän ohjelmistoihinne. Kaikki testataan ennen kuin tiimistänne kukaan näkee sen. Järjestelmä on käytössä 14 arkipäivän sisällä ensimmäisten prosessien osalta.",
               },
               {
                 step: "Vaihe 3",
-                title: "30 päivää — sitten päätös",
+                title: "30 päivää käyttöä. Sen jälkeen te päätätte.",
                 body: "Asiakas saa ratkaisun käyttöönsä kuukaudeksi veloituksetta. Takaamme jo ensimmäisellä kuukaudella 30 tunnin kuukausisäästön, jonka todennamme ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.",
               },
             ].map((s, i) => (
