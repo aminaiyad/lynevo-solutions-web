@@ -95,7 +95,10 @@ function AboutPage() {
           <div className="md:col-span-8">
             <FadeUp delay={0.1}>
               <p className="text-[22px] md:text-[26px] leading-snug font-serif text-[color:var(--ink)]">
-                Emme myy teoriaa. Rakennamme järjestelmiä. Jokainen asiakas saa järjestelmän käyttöönsä kuukaudeksi veloituksetta. Takaamme 30 tunnin kuukausisäästön, todennettu ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.
+                Emme kouluta teille uusia ohjelmistoja emmekä myy konsultointitunteja. Me rakennamme konkreettisia järjestelmiä, joiden tulokset ovat heti mitattavissa.
+              </p>
+              <p className="mt-6 text-[22px] md:text-[26px] leading-snug font-serif text-[color:var(--ink)]">
+                Asiakas saa rakennetun ratkaisun käyttöönsä kuukaudeksi veloituksetta. Takaamme jo ensimmäisellä kuukaudella 30 tunnin ajansäästön, jonka todennamme yhteisellä ROI-raportilla. Jakson jälkeen te päätätte vapaasti jatkosta. Meidän työmme on todistaa järjestelmän arvo ennen kuin maksatte meille mitään. Luvut ratkaisevat.
               </p>
             </FadeUp>
           </div>
