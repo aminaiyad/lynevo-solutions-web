@@ -435,7 +435,7 @@ const FAQ_ITEMS = [
   },
   {
     q: "Meillä on jo tekoäly ohjelmistossa.",
-    a: "Täydellinen. Me rakennamme sen päälle oman tekoälyosaston, joka yhdistää kaiken ja hoitaa prosessit automaattisesti. Ohjelmistojen ominaisuudet eivät häviä, vaan tulevat paremmin käyttöön.",
+    a: "Hienoa, se on erinomainen lähtökohta. Me rakennamme sen päälle oman tekoälyosaston, joka yhdistää kaiken ja hoitaa prosessit automaattisesti. Ohjelmistojen ominaisuudet eivät häviä, vaan tulevat paremmin käyttöön.",
   },
   {
     q: "Kuinka paljon meidän pitää käyttää tähän aikaa?",
