@@ -495,23 +495,23 @@ function Home() {
               className="text-[28px] md:text-[44px] leading-tight max-w-4xl"
               style={{ color: "rgba(255,255,255,0.92)" }}
             >
-              Suomalainen. Rakentava. Tuloksiin sidottu.
+              Suomalainen. Rakentava. Mittaamme tulokset.
             </h2>
           </FadeUp>
 
           <div className="mt-24 grid gap-0 md:grid-cols-3 pt-12" style={{ borderTop: "1px solid rgba(184,149,106,0.2)" }}>
             {[
               [
-                "Suomi ensin",
-                "Tunnemme tilitoimistot, niiden ohjelmistot ja arjen haasteet. Procountor, Netvisor, Fennoa, Visma, Fivaldi. Nämä eivät ole nimiä — ne ovat järjestelmiä, joihin rakennamme.",
+                "Suomalaisille tilitoimistoille",
+                "Työskentelemme ainoastaan suomalaisille tilitoimistoille. Tämä tarkoittaa, että tunnemme alan ohjelmistot, lakisääteiset velvoitteet ja kuukausirytmin. Emme tuo taloon uutta järjestelmää, vaan rakennamme tekoälyosaston, joka käyttää nykyisiä työkalujanne puolestanne.",
               ],
               [
                 "Rakennamme itse",
-                "Rakennamme jokaisen järjestelmän itse — saman, jonka olemme rakentaneet omaan liiketoimintaamme. Ei konsultointia. Ei alakonsultteja. Yksi tekijä, täysi vastuu.",
+                "Rakennamme jokaisen tekoälyjärjestelmän itse samaan tapaan kuin oman sisäisen järjestelmämme. Emme myy koulutuksia tai konsultointia, vaan pysyvän tekoälyosaston, josta otamme täyden vastuun.",
               ],
               [
                 "Nolla riskiä",
-                "Takaamme 30 tunnin kuukausisäästön ensimmäisessä kuukaudessa, todennettu ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.",
+                "Ensimmäinen kuukausi on aina veloituksetta. Asetamme 30 tunnin säästötavoitteen ja mittaamme tulokset ROI-raportilla. Jakson jälkeen te päätätte jatkosta, riippumatta siitä, kuinka paljon tuloksia syntyi.",
               ],
             ].map(([t, b], i) => (
               <FadeUp key={t} delay={i * 0.1}>
