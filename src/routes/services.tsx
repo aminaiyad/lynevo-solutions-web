@@ -19,14 +19,13 @@ const DARK = "#0B0A08";
 const E = [0.16, 1, 0.3, 1] as const;
 
 function ServicesPage() {
-  const included = [
-    "1–2 uutta automaatiota rakennettuna ja käyttöönotettuna kuukausittain",
-    "Kaikki olemassa olevat automaatiot ylläpidettynä ja seurattuna",
-    "Kuukausittainen strategiapuhelu (30 min)",
-    "ROI-raportti joka kuukausi. Objektiivinen mittaus säästetystä ajasta ja euroista.",
-    "Saman päivän vastaus kaikkiin kysymyksiin toimistoaikana",
-    "24 tunnin korjaus, jos jokin hajoaa. Ilman lisäveloitusta.",
-    "Ei yllätyksiä laskuissa. Ylläpito sisältyy aina.",
+  const included: { label: string; body: string }[] = [
+    { label: "Jatkuva kehitys", body: "Uusia automaatioita rakennettuna ja asennettuna joka kuukausi." },
+    { label: "Täysi ylläpito", body: "Valvomme järjestelmää 24/7, jotta teidän ei tarvitse." },
+    { label: "Mitattavat tulokset", body: "Kuukausittainen ROI-raportti säästetyistä tunneista ja euroista." },
+    { label: "Strategiapuhelu", body: "Kuukausipalaveri, jossa käymme läpi tulokset ja seuraavat askeleet." },
+    { label: "Suora tuki", body: "Ei välikäsiä tai tukitikettejä. Puhutte aina suoraan järjestelmän rakentajalle." },
+    { label: "Kiinteä hinta", body: "Ei yllätyslaskuja. Ylläpito, korjaukset ja kehitys sisältyvät aina hintaan." },
   ];
 
   const ladder = [
@@ -138,7 +137,7 @@ function ServicesPage() {
                   className="mt-8 text-lg leading-relaxed max-w-xl"
                   style={{ color: "var(--warm)" }}
                 >
-                  Rakennamme ja ylläpidämme järjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön, jonka todennamme ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.
+                  Rakennamme ja ylläpidämme tekoälyjärjestelmän, joka automatisoi teidän tilitoimistonne manuaalisia prosesseja. Ensimmäinen kuukausi on veloituksetta. Asetamme 30 tunnin säästötavoitteen ensimmäiselle kuukaudelle ja mittaamme tulokset ROI-raportilla. Jakson jälkeen te päätätte jatkosta.
                 </p>
               </FadeUp>
 
@@ -153,7 +152,7 @@ function ServicesPage() {
                   >
                     {included.map((item) => (
                       <li
-                        key={item}
+                        key={item.label}
                         className="flex gap-4 py-5"
                         style={{ borderColor: "var(--divider)" }}
                       >
@@ -165,7 +164,7 @@ function ServicesPage() {
                           className="leading-relaxed"
                           style={{ color: "var(--ink)" }}
                         >
-                          {item}
+                          <strong>{item.label}:</strong> {item.body}
                         </span>
                       </li>
                     ))}
@@ -206,7 +205,10 @@ function ServicesPage() {
                 >
                   <p className="eyebrow mb-6">Kenelle tämä sopii</p>
                   <p className="text-lg leading-relaxed" style={{ color: "var(--ink)" }}>
-                    Suomalaisille tilitoimistoille, joissa on 5–20 työntekijää. Procountor, Netvisor, Fennoa, Visma, Fivaldi, Heeros tai eTasku käytössä. Riittävästi manuaalisia prosesseja, jotta 30 tunnin kuukausisäästö on realistinen.
+                    Tämä on oikea ratkaisu vakiintuneille suomalaisille tilitoimistoille, joissa manuaalinen ylläpitotyö syö asiantuntijoiden aikaa ja hidastaa kasvua.
+                  </p>
+                  <p className="mt-5 text-lg leading-relaxed" style={{ color: "var(--ink)" }}>
+                    Jos tiiminne käyttää kuukausittain kymmeniä tunteja tietojen kopiointiin, täsmäytyksiin tai rutiiniraporttien kokoamiseen olemassa olevista taloushallinnon järjestelmistä, tekoälyosastomme pystyy vapauttamaan sen ajan. Tavoitteenamme on aina minimissään 30 tunnin säästö jo ensimmäisen kuukauden aikana.
                   </p>
                 </div>
               </FadeUp>
