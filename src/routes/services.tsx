@@ -32,17 +32,17 @@ function ServicesPage() {
     {
       step: "01",
       title: "Käyttöönotto",
-      body: "Rakennamme järjestelmän ja otamme ensimmäiset automaatiot käyttöön. Ei aloitusmaksua, ei sitoumuksia.",
+      body: "Määritämme yhdessä lähtötilanteen ja rakennamme tekoälyjärjestelmän teidän tilitoimistollenne. Otamme ensimmäiset automaatiot käyttöön 14 arkipäivän sisällä. Ei aloitusmaksua. Ei sitoumuksia.",
     },
     {
       step: "02",
       title: "Ensimmäinen kuukausi",
-      body: "Automaatiot käynnissä. Seuraamme aktiivisesti. Säästetyt tunnit mitataan ROI-raportissa koko kuukauden ajan.",
+      body: "Automaatiot pyörivät taustalla. Kirjaamme yhdessä sovitun lähtötilanteen ja toteutuneen ajan, ja ROI-raportti näyttää säästetyt tunnit täsmällisesti ilman ylöspäin pyöristyksiä.",
     },
     {
       step: "03",
       title: "Kuukausisopimus",
-      body: "Alkaa jakson jälkeen, kun asiakas on todennut 30 tunnin kuukausisäästön ROI-raportista ja päättää jatkosta.",
+      body: "Kuukausisopimus alkaa vain, jos haluatte jatkaa ensimmäisen kuukauden jälkeen. ROI-raportti näyttää konkreettisesti, mitä järjestelmä on tehnyt. Te päätätte, alkaako kuukausisopimus.",
     },
   ];
 
@@ -255,7 +255,7 @@ function ServicesPage() {
               className="mt-6 text-sm tracking-wider"
               style={{ color: "rgba(255,255,255,0.40)" }}
             >
-              Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön, todennettu ROI-raportilla. Jakson jälkeen asiakas päättää jatkosta.
+              Ensimmäinen kuukausi on veloituksetta. Asetamme 30 tunnin säästötavoitteen ja mittaamme tulokset ROI-raportilla. Jakson jälkeen te päätätte jatkosta. Takuu on luottamussignaali, ei maksuvelvollisuuden ehto: vaikka järjestelmä säästäisi yli 30 tuntia, ette ole automaattisesti velvoitettuja jatkamaan.
             </p>
           </FadeUp>
 
