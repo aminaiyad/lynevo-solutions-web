@@ -315,9 +315,9 @@ function Home() {
 
           <div className="mt-24 grid gap-0 md:grid-cols-3 border-t border-[color:var(--divider)]">
             {[
-              ["01", "Laskut, palkanlaskenta, ALV, asiakasviestintä, dokumenttien metsästys, raporttien kirjoittaminen. Toistuva ylläpitotyö syö sen ajan, joka kuuluisi asiakkaille ja kasvulle."],
-              ["02", "Procountorissa, Netvisorissa ja Fennoassa on jo automaatio-ominaisuuksia. Useimmat tilitoimistot eivät tiedä mitä niissä on tai miten niistä saa mitään irti. Ohjelmistot kehittyvät. Käyttö ei."],
-              ["03", "Toimiston omistaja, joka vapautuu ylläpitotyöstä, pelaa eri peliä. Enemmän aikaa asiakkaille, kasvulle ja sille mikä oikeasti merkitsee."],
+              ["01", "Laskut, palkanlaskenta, ALV, asiakasviestintä, dokumenttien metsästys ja raporttien kirjoittaminen. Tilitoimiston omistaja käyttää tunnit toistuvaan ylläpitotyöhön. Nämä tunnit eivät kasvata liiketoimintaa. Ne vain pitävät sen käynnissä."],
+              ["02", "Nykyiset taloushallinnon ohjelmistot on rakennettu helpottamaan työtä, mutta arki näyttää silti samalta: kuitteja, täsmäytyksiä, ilmoituksia ja raportteja tehdään käsin. Ohjelmistot tekevät osansa, mutta manuaalinen työ jää edelleen teidän tiimillenne."],
+              ["03", "Kun omistaja ei käytä päiviä ylläpitoon, aikaa vapautuu päätöksiin, joita kukaan muu ei voi tehdä. Millaisia asiakkaita otatte sisään, mitä palveluita tuotte markkinaan ja miten kehitätte koko toimistoa seuraavaan kokoluokkaan."],
             ].map(([n, t], i) => (
               <FadeUp key={n} delay={i * 0.1}>
                 <div
