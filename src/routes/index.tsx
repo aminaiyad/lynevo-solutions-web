@@ -411,15 +411,15 @@ function Home() {
           <div className="mt-24 grid gap-4 md:grid-cols-2">
             {[
               {
-                title: "Järjestelmä veloituksetta",
-                body: "Rakennamme järjestelmän ja kehitämme sitä joka kuukausi uusilla automaatioilla. Ensimmäinen kuukausi veloituksetta. Takaamme 30 tunnin kuukausisäästön — jakson jälkeen asiakas päättää jatkosta.",
-                price: "Ilmainen käyttöönotto · Tuloksiin sidottu",
+                title: "Oma tekoälyjärjestelmä ensimmäiseksi kuukaudeksi veloituksetta",
+                body: "Rakennamme teidän tilitoimistolle oman tekoälyjärjestelmän ja otamme sen käyttöön teidän puolestanne. Ensimmäinen kuukausi on aina veloituksetta. Asetamme 30 tunnin säästötavoitteen ensimmäiselle kuukaudelle ja mittaamme tulokset ROI-raportilla. Jakson jälkeen te päätätte, haluatteko jatkaa kuukausisopimuksella.",
+                price: "Veloitukseton käyttöönotto · 30 päivää käyttöä ennen päätöstä",
                 featured: true,
               },
               {
-                title: "Kuukausisopimus",
-                body: "Uusia automaatioita kuukausittain. Kaikki ylläpidetään ja kehitetään. Strategiapuhelu ja ROI-raportti kuukausittain.",
-                price: "",
+                title: "Kuukausisopimus lyhyesti",
+                body: "Jos päätätte jatkaa ensimmäisen kuukauden jälkeen, tekoälyjärjestelmästä tulee pysyvä osa teidän arkeanne. Rakennamme uusia automaatioita joka kuukausi, pidämme olemassa olevat kunnossa ja seuraamme tuloksia teidän puolestanne. Saatte kuukausittaisen strategiapuhelun ja ROI-raportin, jossa näette säästetyt tunnit ja eurovaikutuksen ennen seuraavia päätöksiä.",
+                price: "Kiinteä kuukausimaksu kokoluokan mukaan · Ei yllätyslaskuja",
                 featured: true,
               },
             ].map((s, i) => (
